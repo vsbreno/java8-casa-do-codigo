@@ -15,12 +15,10 @@ public class Capitulo2 {
 		Usuario user3 = new Usuario("Guilherme Silveira", 190);
 
 		List<Usuario> usuarios = Arrays.asList(user1, user2, user3);
-		Consumer<Usuario> mostrador = new Consumer<Usuario>() {
+		usuarios.forEach(new Consumer<Usuario>() {
 			public void accept(Usuario u) {
 				System.out.println(u.getName());
 			}
-		};
-		
-		usuarios.forEach(mostrador);
+		});
 	}
  }
