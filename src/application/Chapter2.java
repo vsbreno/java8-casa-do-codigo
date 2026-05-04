@@ -2,11 +2,10 @@ package application;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Consumer;
 
 import model.entities.Usuario;
 
-public class Capitulo2 {
+public class Chapter2 {
 
 	public static void main(String[] args) {
 
